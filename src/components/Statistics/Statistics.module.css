@@ -1,0 +1,18 @@
+.statList {
+  padding: 10px;
+  width: 560px;
+  color: rgb(49, 25, 48);
+  background-color: rgba(255, 127, 249, 0.164);
+  list-style: none;
+  font-size: 24px;
+  line-height: 1.5;
+  border: 1px solid rgb(189, 187, 187);
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px 0px rgb(0 0 0 / 30%) inset;
+}
+
+.statItem:nth-last-child(-n + 2) {
+  padding-top: 10px;
+  font-size: 26px;
+  font-weight: 600;
+}
